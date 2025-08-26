@@ -1,5 +1,5 @@
 # PANW032
-<p><img src="images/startup/0_panw_logo.png" alt="0_panw_logo.png" width="100%" /></p>
+<p><img src="images/0_panw_logo.png" alt="0_panw_logo.png" width="100%" /></p>
 
 ## Welcome
 
@@ -49,7 +49,7 @@ For DevSecOps to be successful for teams working to build and secure infrastruct
 ### Start the lab
 
 1. When you are ready, click the **Start Lab** button.
-    <img src="images/startup/1_lab_start.png" alt="1_lab_start.png"  width="100%" />
+    <img src="images/1_lab_start.png" alt="1_lab_start.png"  width="100%" />
 
     <ql-infobox>
     The lab will take several minutes to provision. Once the completed, you can log into the lab's Google Cloud console.       
@@ -58,7 +58,7 @@ For DevSecOps to be successful for teams working to build and secure infrastruct
 
 2. Right-click **Console → Open Link in Incognito Window**. Use the credentials below to log into the Google Cloud console.
 
-    <img src="images/startup/2_lab_open.png" alt="2_lab_open.png"  width="100%" />
+    <img src="images/2_lab_open.png" alt="2_lab_open.png"  width="100%" />
 
     | Credentials  | Value                 |
     | ------------ | --------------------- |
@@ -71,7 +71,7 @@ For DevSecOps to be successful for teams working to build and secure infrastruct
     </br>
 
 3. Accept the EULA agreements to finish signing in.
-    <img src="images/startup/3_eula.png" alt="3_eula.png"  width="100%" />
+    <img src="images/3_eula.png" alt="3_eula.png"  width="100%" />
 
 ---
 
@@ -95,7 +95,7 @@ Another benefit of using Terraform to define infrastructure is that code can be 
 
 1. Click **Activate Cloud Shell** at the top of the Google Cloud console. 
    
-   <img src="images/startup/cloudshell.png" alt="cloudshell.png"  width="85%" />
+   <img src="images/cloudshell.png" alt="cloudshell.png"  width="85%" />
 Before installing checkov or pulling code to scan, create and activate a python virtual environment to better organize python packages.
 
 ``` 
