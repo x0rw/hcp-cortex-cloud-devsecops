@@ -11,6 +11,7 @@ resource "google_storage_bucket" "sample" {
   uniform_bucket_level_access = false
 
   #public_access_prevention = "enforced" ##comment out this line of code for demo
+#
 }
 
 resource "random_id" "Rand_suffix" {
