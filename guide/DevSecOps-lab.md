@@ -1,6 +1,7 @@
 # PANW032
 <p><img src="images/0_panw_logo.png" alt="0_panw_logo.png" width="100%" /></p>
 
+
 ## Welcome
 
 This workshop will demonstrate how to leverage infrastructure as code (IaC) and DevSecOps patterns to automate, scale, and improve the security posture of cloud infrastructure and applications. We will create a pipeline that ensures our configurations are secure and compliant from code to cloud.
@@ -724,31 +725,6 @@ Click the **Configurations** Tab, you will see the Issues:
 Click the issue **GCP Storage buckets are publicly accessible to all users misconfiguration detected in code** to get the details. 
 
 ![alt](images/config-fix2.png)
-
-
-
-
-
-## Issue a PR-Fix
-Lets create a pull request from the Cortex Cloud console to apply a code fix. 
-Click the three dots at the top right. And Click **Open fix pull request**
-![alt](images/pr-fix1.png)
-
-Wait a while a Pull Request will be generated to you Github Repo. Navigate back to GitHub and check the **Pull request** tab to see the fix Cortex Cloud submitted.
-
-![alt](images/pr-fix2.png)
-
-Drill into the pull request and inspect the file changes under the **Files changes** tab. Notice the changes made to remediate the original policy violation.
-
-![alt](images/pr-fix4.png)
-
-Go back to the **Coversation** tab and click **Merge the pull request** at the bottom to check this code into the main branch.
-
-![alt](images/pr-fix3.png)
-
-Check Terraform Cloud to view the plan succesfully run. No need to apply this run.
-
-![alt](images/pr-fix5.png)
 
 
 ## Wrapping Up
